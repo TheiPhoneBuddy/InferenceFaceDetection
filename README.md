@@ -15,15 +15,17 @@ Use cases:
       entering a building.
     - And many more use cases!
 
-The service can be use from an web app, IOS app or any device capable of accessing the service.
+The service can be use from a web app, IOS app or any device capable of accessing the service.
 
 For demo purposes the LLM was trained with these famous people's faces:
 
 Angelina Jolie, Brad Pitt, Denzel Washington, Hugh Jackman, Jennifer Lawrence, Johnny Depp, Kate Winslet, Leonardo DiCaprio, Megan Fox, Natalie Portman, Nicole Kidman, Robert Downey Jr, Sandra Bullock, Scarlett Johansson, Tom Cruise, Tom Hanks, Will Smith.
 
-The LLM can idenify these famous faces from a video, live feed or a photo.
+https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
 
-You can try out this service using "Postman" with photos provided in the "TestImages" folder. The service trys to predict the identity of the uploaded photo and returns a json string with a prediction score for the uploaded image. 
+The LLM can identify these famous faces from a video, live feed or a photo.
+
+You can try out this service using "Postman" with photos provided in the "TestImages" folder. The service try’s to predict the identity of the uploaded photo and returns a json string with a prediction score for the uploaded image. 
 
 ![Postman1](assets/Postman1.png)
 
